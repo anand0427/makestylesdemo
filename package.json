@@ -1,6 +1,9 @@
 {
   "title": "Material demo",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
+  "homepage": "http://anand0427.github.io/makestyledemo",
+  "homepage": "http://gitname.github.io/makestyledemo",
     "react-scripts": "latest"
   },
   "description": "https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/grid/CenteredGrid.js",
@@ -9,4 +12,6 @@
     "react": "latest",
     "@material-ui/core": "latest"
   }
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
 }
