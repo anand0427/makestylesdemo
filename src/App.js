@@ -39,7 +39,7 @@ function App() {
               <Grid item xs = {3}>
               <Paper className = {classes.paper} > Paper gives material design.
               makestyles method
-              is called along with the theme which intern calls
+              is called along with the theme which internally calls
               stylequeryselector which checks if
               we send a function which is why theme is a function </Paper>
               </Grid>
